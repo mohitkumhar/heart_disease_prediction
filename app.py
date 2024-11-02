@@ -3,6 +3,10 @@ import pandas as pd
 import pickle
 
 model = pickle.load(open('model.pkl', 'rb'))
+
+st.set_page_config(page_title='Heart Disease Prediction', page_icon='static/img/heart image.webp')
+# favicon being an object of the same kind as the one you should provide st.image() with (ie. a PIL array for example) or a string (url or local file path)
+
 st.title("Heart Disease Prediction App")
 
 
