@@ -1,20 +1,24 @@
 # Heart Disease Prediction
 
-This project focuses on predicting heart disease using various health indicators. The goal is to utilize machine learning techniques to accurately predict the presence of heart disease in individuals.
+This project leverages machine learning techniques to predict the likelihood of heart disease in individuals based on health indicators. You can explore a live demo of the model here:
+
+[Demo Link](https://heart-disease-prediction-project-ml.streamlit.app/)
 
 ## Overview
 
-The model predicts heart disease based on various features such as demographic data, lifestyle choices, and medical history. It takes data like age, gender, cholesterol levels, blood pressure, and other relevant health metrics to determine the likelihood of heart disease.
+The model is designed to analyze various factors that contribute to heart disease, using demographic data, lifestyle choices, and medical history. By evaluating indicators such as age, gender, cholesterol levels, and blood pressure, the model determines the probability of heart disease, helping healthcare providers assess risks more effectively.
 
 ## Model and Results
 
-A logistic regression model was trained and achieved an accuracy of **86.78%** in predicting heart disease.
+A logistic regression model was developed for this task, achieving an accuracy of **86.78%** in predicting heart disease. This result indicates that the model has potential for use in early screening.
 
 ## Getting Started
 
+To get started with this project locally, follow the steps below.
+
 ### Clone the Repository
 
-To get started with the project, clone the repository using the following command:
+Clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/yourusername/heart-disease-prediction.git
@@ -22,7 +26,7 @@ git clone https://github.com/yourusername/heart-disease-prediction.git
 
 ### Install Requirements
 
-Navigate to the project directory and install the required libraries using:
+Navigate to the project directory and install the necessary dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -30,15 +34,14 @@ pip install -r requirements.txt
 
 ### Run the Project
 
-After installing the requirements, run the notebook or script to train and evaluate the model.
+After installing the requirements, you can run the Jupyter notebook or the Python script to train and evaluate the model.
 
 ## Contributing
 
-Contributions are welcome! To contribute:
+We welcome contributions to improve the project! To contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
+3. Implement your changes and commit them.
+4. Push your changes to your forked repository.
 5. Submit a pull request with a description of your changes.
-
